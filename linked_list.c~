@@ -1,8 +1,0 @@
-#include <stdio.h>
-#include "headers.h"
-
-struct node *insert_front(Struct node * a, int b){
-  struct node * y = malloc(sizeof(struct node));
-  y.i = b;
-  y.next = a;
-}
