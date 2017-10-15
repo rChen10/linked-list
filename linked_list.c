@@ -16,6 +16,7 @@ struct node *free_list(struct node * a){
   if (go){
     free_list(go);
   }
+  return a;
 }
 
 void print_list(struct node * a){
